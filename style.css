@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+
+p {
+
+    color: rgb(145, 166, 185);
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(15, 15, 15);
+}
+
+button {
+
+    color: rgb(255, 0, 0);
+    width: 90px;
+    height: 40px;
+    border: none;
+    color: white;
+    background: rgb(127, 10, 10);
+    transition: 1s;
+    font-weight: 100;
+}
+
+button:hover,
+
+button:focus {
+
+    background-color: red;
+
+    transform: translateX(10px);
+
+}
+
+p {
+
+    color: aliceblue;
+
+}
+
+body {
+
+    background-color: rgb(12, 6, 6);
+
+    background-repeat: no-repeat;
+
+    background-position: top;
+
+    background-size: 100%;
+
+    background-position: unset;
+
+    padding-top: 8%;
+
+}
+
+
+
+button :hover button :focus {
+
+    background: red;
+
+}
+
+input {
+
+    width: 60%;
+
+    margin: 1%;
+
+    padding: 1%;
+
+    color: white;
+
+    background: rgb(0, 0, 0);
+
+}
+textarea{
+    width: 60%;
+
+    margin: 1%;
+
+    padding: 1%;
+
+    color: white;
+
+    background: rgb(0, 0, 0);
+    height: 150px;
+}
+
+h1 {
+
+    position: absolute;
+
+    left: 35%;
+
+    color: aliceblue;
+
+    background-color: darkblue;
+
+    padding: 1%;
+
+    top: 3%;
+
+}
+
+label {
+
+    width: 59%;
+
+}
+
+img {
+
+    width: 13%;
+
+    position: absolute;
+
+    left: 80%;
+
+    top: 60%
+}
